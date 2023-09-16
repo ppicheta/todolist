@@ -1,205 +1,94 @@
-﻿altair==5.1.1
-pywin32==303; platform_system=="Windows"
-pywin32-ctypes==0.2.2; platform_system=="Windows"
-altgraph==0.17.3
-argon2-cffi==21.3.0
-argon2-cffi-bindings==21.2.0
-astor==0.8.1
-astroid==2.12.11
-asttokens==2.2.1
-attrs==23.1.0
-backcall==0.2.0
-backports.zoneinfo==0.2.1
-base58==2.1.1
-beautifulsoup4==4.11.1
-blinker==1.6.2
-boto3==1.28.47
-botocore==1.31.47
-Brotli==1.0.9
-cachetools==5.3.1
-certifi==2022.6.15
-cffi==1.15.1
-chardet==5.1.0
-charset-normalizer==2.1.0
-ci-info==0.3.0
-click==8.0.4
-clipboard==0.0.4
-cloudpickle==2.2.1
-colorama==0.4.5
-colorclass==2.2.2
-comm==0.1.2
-compressed-rtf==1.0.6
-comtypes==1.1.11
-configobj==5.0.6
-configparser==5.3.0
-construct==2.10.68
-contourpy==1.0.7
-cryptography==40.0.2
-cycler==0.11.0
-Cython==0.29.32
-dask==2023.4.0
-debugpy==1.6.4
-decorator==5.1.1
-dill==0.3.5.1
-distlib==0.3.5
-dnspython==2.3.0
-easygui==0.98.3
-ebcdic==1.1.1
-entrypoints==0.4
-enum-compat==0.0.3
-et-xmlfile==1.1.0
-etelemetry==0.3.0
-exceptiongroup==1.1.1
-execnet==1.9.0
-executing==1.2.0
-extract-msg==0.41.2
-filelock==3.8.0
-fitz==0.0.1.dev2
-flake8==4.0.1
-fonttools==4.38.0
-fsspec==2023.4.0
-future==0.18.2
-html5lib==1.1
-httplib2==0.20.4
-idna==3.3
-IMAPClient==2.3.1
-importlib-metadata==6.4.1
-importlib-resources==6.0.1
-inflate64==0.3.1
-iniconfig==2.0.0
-ipykernel==6.19.4
-ipython==8.7.0
-isodate==0.6.1
-isort==5.10.1
-jedi==0.18.2
-Jinja2==3.1.2
-jmespath==1.0.1
-jsonschema==4.19.0
-jsonschema-specifications==2023.7.1
-jupyter_client==7.4.8
-jupyter_core==5.1.0
-keyring==23.8.2
-kiwisolver==1.4.4
-lark-parser==0.12.0
-lazy-object-proxy==1.7.1
-locket==1.0.0
-looseversion==1.0.1
-lxml==4.9.1
-MarkupSafe==2.1.3
-matplotlib==3.6.3
-matplotlib-inline==0.1.6
-mccabe==0.6.1
-msoffcrypto-tool==5.0.1
-multi-key-dict==2.0.3
-multivolumefile==0.2.3
-nest-asyncio==1.5.6
-networkx==2.8.6
-nibabel==4.0.2
-nipype==1.8.4
-numpy==1.23.1
-olefile==0.46
-oletools==0.60.1
-openpyxl==3.0.10
-packaging==21.3
-pandas==1.4.3
-parso==0.8.3
-partd==1.4.0
-pathlib==1.0.1
-pbr==5.9.0
-pcodedmp==1.2.6
-pefile==2023.2.7
-pickleshare==0.7.5
-Pillow==9.4.0
-pkgutil_resolve_name==1.3.10
-platformdirs==2.5.2
-pluggy==1.0.0
-prompt-toolkit==3.0.36
-protobuf==3.20.3
-prov==2.0.0
-psutil==5.9.4
-pure-eval==0.2.2
-py==1.11.0
-py7zr==0.20.2
-pybcj==1.0.1
-pycodestyle==2.8.0
-pycparser==2.21
-pycryptodome==3.15.0
-pycryptodomex==3.15.0
-pydeck==0.8.1b0
-pydot==1.4.2
-pyflakes==2.4.0
-Pygments==2.13.0
-pyhtml2pdf==0.0.6
-pyinstaller==5.13.2
-pyinstaller-hooks-contrib==2023.8
-pykeepass==4.0.3
-pylint==2.15.4
-pymongo==4.3.3
-PyMuPDF==1.16.14
-pyodbc==4.0.34
-pyparsing==2.4.7
-PyPDF2==2.10.8
-pyperclip==1.8.2
-pyppmd==1.0.0
-PyQt5==5.15.7
-PyQt5-Qt5==5.15.2
-PyQt5-sip==12.11.0
-PySimpleGUI==4.60.5
-pytest==7.3.1
-pytest-html==3.2.0
-pytest-metadata==3.0.0
-pytest-sugar==0.9.7
-pytest-xdist==3.3.1
-python-dateutil==2.8.2
-python-dotenv==1.0.0
-python-jenkins==1.7.0
-pytz==2022.1
-pytz-deprecation-shim==0.1.0.post0
-pyxnat==1.4
-PyYAML==6.0
-pyzmq==24.0.1
-pyzstd==0.15.3
-rdflib==6.2.0
-red-black-tree-mod==1.20
-referencing==0.30.2
-requests==2.28.1
-rpds-py==0.10.3
-RTFDE==0.0.2
-s3transfer==0.6.2
-scipy==1.9.1
-seaborn==0.12.2
-selenium==3.141.0
-simplejson==3.17.6
-six==1.16.0
-soupsieve==2.3.2.post1
-stack-data==0.6.2
-streamlit==0.62.0
-tabulate==0.9.0
-termcolor==2.3.0
-texttable==1.6.7
-toml==0.10.2
-tomli==2.0.1
-tomlkit==0.11.5
-toolz==0.12.0
-tornado==6.2
-tqdm==4.65.0
-traitlets==5.8.0
-traits==6.3.2
-typing_extensions==4.3.0
-tzdata==2023.3
-tzlocal==4.2
-uiautomation==2.0.16
-urllib3==1.26.10
-validators==0.22.0
-virtualenv==20.16.3
-watchdog==3.0.0
-wcwidth==0.2.5
-webdriver-manager==3.8.6
-webencodings==0.5.1
-win-unicode-console==0.5
-WMI==1.5.1
-wrapt==1.14.1
-xlrd==2.0.1
-XlsxWriter==3.0.3
-xlwings==0.30.4
-zipp==3.8.1
+    altair==4.2.0
+    appnope==0.1.3
+    argon2-cffi==21.3.0
+    argon2-cffi-bindings==21.2.0
+    asttokens==2.0.5
+    attrs==21.4.0
+    backcall==0.2.0
+    beautifulsoup4==4.11.1
+    bleach==5.0.0
+    blinker==1.4
+    cachetools==5.2.0
+    certifi==2022.5.18.1
+    cffi==1.15.0
+    charset-normalizer==2.0.12
+    click==8.1.3
+    commonmark==0.9.1
+    debugpy==1.6.0
+    decorator==5.1.1
+    defusedxml==0.7.1
+    entrypoints==0.4
+    executing==0.8.3
+    fastjsonschema==2.15.3
+    gitdb==4.0.9
+    GitPython==3.1.27
+    idna==3.3
+    importlib-metadata==4.11.4
+    ipykernel==6.14.0
+    ipython==8.4.0
+    ipython-genutils==0.2.0
+    ipywidgets==7.7.0
+    jedi==0.18.1
+    Jinja2==3.1.2
+    jsonschema==4.6.0
+    jupyter-client==7.3.4
+    jupyter-core==4.10.0
+    jupyterlab-pygments==0.2.2
+    jupyterlab-widgets==1.1.0
+    MarkupSafe==2.1.1
+    matplotlib-inline==0.1.3
+    mistune==0.8.4
+    nbclient==0.6.4
+    nbconvert==6.5.0
+    nbformat==5.4.0
+    nest-asyncio==1.5.5
+    notebook==6.4.12
+    numpy==1.22.4
+    packaging==21.3
+    pandas==1.4.2
+    pandocfilters==1.5.0
+    parso==0.8.3
+    pexpect==4.8.0
+    pickleshare==0.7.5
+    Pillow==9.1.1
+    prometheus-client==0.14.1
+    prompt-toolkit==3.0.29
+    protobuf==3.20.1
+    psutil==5.9.1
+    ptyprocess==0.7.0
+    pure-eval==0.2.2
+    pyarrow==8.0.0
+    pycparser==2.21
+    pydeck==0.7.1
+    Pygments==2.12.0
+    Pympler==1.0.1
+    pyparsing==3.0.9
+    pyrsistent==0.18.1
+    python-dateutil==2.8.2
+    pytz==2022.1
+    pytz-deprecation-shim==0.1.0.post0
+    pyzmq==23.1.0
+    requests==2.28.0
+    rich==12.4.4
+    semver==2.13.0
+    Send2Trash==1.8.0
+    six==1.16.0
+    smmap==5.0.0
+    soupsieve==2.3.2.post1
+    stack-data==0.2.0
+    streamlit==1.10.0
+    terminado==0.15.0
+    tinycss2==1.1.1
+    toml==0.10.2
+    toolz==0.11.2
+    tornado==6.1
+    traitlets==5.2.2.post1
+    typing_extensions==4.2.0
+    tzdata==2022.1
+    tzlocal==4.2
+    urllib3==1.26.9
+    validators==0.20.0
+    wcwidth==0.2.5
+    webencodings==0.5.1
+    widgetsnbextension==3.6.0
+    zipp==3.8.0
