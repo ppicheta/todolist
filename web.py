@@ -14,12 +14,11 @@ def add_todo():
 #Network URL: http://192.168.2.3:8501
 # python -m streamlit.cli run C:/Projects/TodoList_app/web.py
 
-
-st.text_input(label='Enter a new todo', key='new_todo', on_change=add_todo)
-
 st.title('My Todo App')
 st.subheader('This is my todo app')
-st.write('<b>This will encrease my productivity</b>', unsafe_allow_html=True)
+st.write('This will encrease my <b>productivity</b>', unsafe_allow_html=True)
+# add a new todo task
+st.text_input(label='Enter a new todo', key='new_todo', on_change=add_todo)
 
 for index, todo in enumerate(todos):
     checkbox = st.checkbox(todo, key=todo)
